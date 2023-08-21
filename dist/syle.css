@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  overflow-y: hidden;
+  background: var(--bg);
+  color: var(--text);
+}
+
+li {
+  list-style: none;
+}
+
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+:root {
+  --lime-green: hsl(163, 72%, 41%);
+  --bright-red: hsl(356, 69%, 56%);
+  --facebook: hsl(208, 92%, 53%);
+  --twitter: hsl(203, 89%, 53%);
+  --instagram: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+  --youtube: hsl(348, 97%, 39%);
+  --toggle: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+  --toggle: hsl(230, 22%, 74%);
+  --bg: hsl(230, 17%, 14%);
+  --top-bg-attern: hsl(232, 19%, 15%);
+  --card-bg: hsl(228, 28%, 20%);
+  --db-text: hsl(228, 34%, 66%);
+  --text: hsl(0, 0%, 100%);
+}
+
+/*# sourceMappingURL=syle.css.map */

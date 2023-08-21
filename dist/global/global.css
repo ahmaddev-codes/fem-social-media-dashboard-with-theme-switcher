@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  overflow-y: hidden;
+  background: var(--bg);
+  color: var(--text);
+}
+
+li {
+  list-style: none;
+}
+
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=global.css.map */
